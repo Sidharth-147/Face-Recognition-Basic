@@ -11,7 +11,7 @@ image2_encoding = face_recognition.face_encodings(image2)[0]
 
 # Create arrays of known face encodings and names
 known_face_encodings = [image1_encoding, image2_encoding]
-known_face_names = ["Sidharth Nair", "Ms Dhoni"]
+known_face_names = ["Sidharth Nair", "alwin"]
 
 # Initialize webcam
 video_capture = cv2.VideoCapture(0)
